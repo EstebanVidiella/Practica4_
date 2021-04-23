@@ -1,0 +1,169 @@
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4b1b04;
+  background-image: linear-gradient(0deg, #9c4c00 0%, #949494 100%);
+  width: 100%;
+  min-height: 60vh;
+  max-height: max-content;
+}
+
+.loader {
+  background-image: url("../../images/books.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 440px;
+  justify-content: center;
+  align-items: center;
+}
+
+.typeShow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-grad:active {
+  font-size: 75%;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #603813 0%,
+    #ca8f6d 51%,
+    #603813 100%
+  );
+}
+.btn-grad {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px rgb(187, 186, 186);
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  text-decoration: none;
+}
+
+.sortOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sort {
+  cursor: pointer;
+  margin: 5px;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.List {
+  background-color: bisque;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-grad2 {
+  background-image: linear-gradient(
+    to right,
+    #603813 0%,
+    #ca8f6d 51%,
+    #603813 100%
+  );
+}
+.btn-grad2 {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+.btn-grad2:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: bisque;
+  justify-content: center;
+  margin: 10px;
+  height: 100%;
+}
+.box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: fit-content;
+  width: 250px;
+  height: 400px;
+}
+.texto_title {
+  color: black;
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 5px;
+}
+
+.container {
+  width: 1500px;
+}
+.texto_amz {
+  text-decoration: none;
+  background-color: burlywood;
+  width: 50%;
+  color: black;
+  border-radius: 2px;
+
+  cursor: pointer;
+}
+
+.boxInfo {
+  position: relative;
+  top: 70px;
+  right: 5%;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: 25px;
+  width: 200px;
+  padding: 2px;
+}
